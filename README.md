@@ -1,2 +1,2 @@
-# wi21-cse110-lab4
-Lab 4 of CSE 110
+Nick Krolikowski
+nkroliko@ucsd.edu
