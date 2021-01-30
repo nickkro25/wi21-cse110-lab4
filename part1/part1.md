@@ -15,8 +15,22 @@
 8. It will return an error, as the method is trying to print variables that are out of scope. However, if those issues are fixed, the method will return an array containing: 50, 100, and 150 for the same reasons as question 4.
 
 9.  Error, no such variable, the scope of i is only in the for loop.
+
 10. Error, the constant variable discountedPrice had been reassigned multiple times in the for loop 
+
 11. Error, the constant variable finalPrice had been reassinged multiple times in the for loop.
+
 12. It will not return anything, as multiple errors are thrown. However, if some issues are resolved, then assignign finalprice to each indece will result in the function returning an array containg 0, 0, and 0.
 
+13
+
+a student.name;
+
+b student[Grad Year];
+
+c student.greeting();
+
+d  student[Favorite Teacher].name;
+
+e student.courseLoad[0];
 
