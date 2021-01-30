@@ -72,4 +72,12 @@
 
 19. The result is [6,8,10]. The function modifyArray is called, with an array containing [1,2,3] and the callback function being defined as doSomething. Then for each element in the array, the callback function, doSomething is called with the array element and a callback function that multiplies by two and returns it. Therefore, the DoSomething functioin will add two to each array element and multiply it by 2. Thus, each element of the array will have 2 added to it, then multiplied by 2.
 
-20.
+21. The output of the code is:
+
+        1
+        
+        4
+        
+        3
+        
+        2
