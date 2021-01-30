@@ -24,13 +24,48 @@
 
 13
 
-a student.name;
+    a student.name;
 
-b student[Grad Year];
+    b student[Grad Year];
 
-c student.greeting();
+    c student.greeting();
 
-d  student[Favorite Teacher].name;
+    d  student[Favorite Teacher].name;
 
-e student.courseLoad[0];
+    e student.courseLoad[0];
 
+14
+
+    a '32' - when adding a string and a number with a plus sign, the number is converted to a string and is concatenated
+
+    b 1  - subtraction is strictly a numerical operator, thus strings are converted to numbers
+
+    c 3 - null is equal to 0
+
+    d '3null' - again, adding a string and anything concatenates the answer to be a string.
+
+    e 4 - true can be treated as a number, so 1, and since it is being added to a number, the answeer is a number
+
+    f 0 - Both false and null can be treated as zeros, so adding them together results in 0
+
+    g '3undefined' - adding anything to a string concatatenates the two together
+
+    h NaN - due to subtractionm, undefined is treated as a number. However, its value is NaN, and non known, so the answer will be NaN
+
+15
+
+    a true, string '2' becomes a number 2
+
+    b false, '2' is larger than '1', so comparing the strings '2' and '12', '2' would be bigger
+
+    c true, it is only a regular equality check
+
+    d false, this is a strict equality check and the values being compared are not the same type
+
+    e false, true is equal to the number 1
+
+    f true, Boolean(2) returns true because 2 is larger than 0. So both values are true and of boolean type
+
+16 == is a regular equality check, and only looks at the values of variables, not their type. === is a strict equality check and requires both the values and types to match.
+
+17 'How are you?' will be printed, as the first conditional is false (2 == true), but (2) is true because Boolean(2) is true because 2 > 0.
