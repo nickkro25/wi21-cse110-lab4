@@ -69,3 +69,7 @@
 16 == is a regular equality check, and only looks at the values of variables, not their type. === is a strict equality check and requires both the values and types to match.
 
 17 'How are you?' will be printed, as the first conditional is false (2 == true), but (2) is true because Boolean(2) is true because 2 > 0.
+
+19. The result is [6,8,10]. The function modifyArray is called, with an array containing [1,2,3] and the callback function being defined as doSomething. Then for each element in the array, the callback function, doSomething is called with the array element and a callback function that multiplies by two and returns it. Therefore, the DoSomething functioin will add two to each array element and multiply it by 2. Thus, each element of the array will have 2 added to it, then multiplied by 2.
+
+20.
